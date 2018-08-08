@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import './Pets.css';
-import Pet from './containers/Pet/Pet';
-import Toolbar from './UI/Toolbar/'
+import Pet from './Pet';
+import Header from './Header';
+
 
 class Pets extends Component {
   render() {
     return (
-      <div className="Pets">
-        { Toolbar }
+      <div>
+        { Header }
         { Pet }
       </div>
     );
   }
 }
+
 
 export default Pets;
